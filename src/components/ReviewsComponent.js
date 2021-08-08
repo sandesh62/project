@@ -11,6 +11,7 @@ const renderReviewStars = (props) => {
       value={reviewRating}
       edit={false}
       size={30}
+      isHalf={true}
       activeColor={colors.GREEN}
     />
   );
@@ -105,7 +106,7 @@ export default function ReviewsComponent(props) {
         border: `1px solid ${colors.GRAY}`,
         borderLeft: 0,
         marginTop: "10px",
-        width: "25%",
+        width: "28%",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",

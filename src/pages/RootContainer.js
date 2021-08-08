@@ -1,5 +1,6 @@
 import React from "react";
 import DetailsContainer from "./DetailsContainer";
+import FiltersContainer from "./FiltersContainer";
 
 export default function RootContainer() {
   return (
@@ -12,12 +13,13 @@ export default function RootContainer() {
         flex: 1,
       }}
     >
-      <div style={{ display: "flex", width: "20%", height: "100vh" }}></div>
+      <div style={{ display: "flex", width: "20%", height: "100vh" }}>
+        <FiltersContainer />
+      </div>
       <div
         style={{
           display: "flex",
           width: "80%",
-          //   backgroundColor: "yellow",
         }}
       >
         <DetailsContainer />
