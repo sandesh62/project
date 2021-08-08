@@ -8,7 +8,7 @@ const renderImageSection = () => {
   return (
     <div
       style={{
-        width: "40%",
+        width: "15%",
         display: "flex",
         justifyContent: "center",
         padding: "20px",
@@ -34,7 +34,7 @@ const renderDetailsSection = (props) => {
   return (
     <div
       style={{
-        width: "500vh",
+        width: "85%",
         paddingTop: "20px",
         display: "flex",
         alignItems: "center",
@@ -381,7 +381,7 @@ export default function DetailsComponent(props) {
         display: "flex",
         border: `1px solid ${colors.GRAY}`,
         marginTop: "10px",
-        width: "100%",
+        width: "70%",
         flexDirection: "column",
       }}
     >

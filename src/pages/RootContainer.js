@@ -17,7 +17,6 @@ export default function RootContainer() {
         style={{
           display: "flex",
           width: "80%",
-          height: "100vh",
           //   backgroundColor: "yellow",
         }}
       >

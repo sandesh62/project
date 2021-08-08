@@ -25,6 +25,8 @@ export const mockData = {
   team: "1-1000",
   responseRate: "20%",
   image: "",
+  reviewRating: 3.5,
+  reviewTotal: 975623
 };
 
 export const mockDataList = [mockData, mockData, mockData];
